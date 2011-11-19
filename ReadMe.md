@@ -20,3 +20,10 @@
      hook.emit('meltdown::jobs::add', {"event":"custom-event", "data" : {"foo":"bar"}});
      
 **this will now execute when `meltdown::critical` occurs.**
+
+## Push the button
+
+     hook.emit('meltdown::pushthebutton');
+
+**all is well, reset the countdown**
+

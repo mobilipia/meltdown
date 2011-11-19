@@ -1,0 +1,21 @@
+{
+  "author": "Marak Squires <marak.squires@gmail.com>",
+  "name": "meltdown",
+  "description": "a dead man's switch for hook.io",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hookio/meltdown.git"
+  },
+  "bin": {
+     "meltdown": "./bin/meltdown"
+  },
+  "main" : "lib/meltdown",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io": "0.8.x",
+  },
+  "devDependencies": {}
+}

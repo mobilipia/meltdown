@@ -1,0 +1,22 @@
+{
+  "jobs" : [
+    {
+      "event": "hello",
+      "data": {
+        "prop": "val"
+      }
+    },
+    {
+      "event": "test",
+      "data": {
+        "prop2": "val2"
+      }
+    },
+    {
+      "event": "foo",
+      "data": {
+        "prop3": "val3"
+      }
+    }
+  ]
+}

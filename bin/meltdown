@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var Meltdown = require('../lib/meltdown').Meltdown;
+
+var meltdown = new Meltdown({ 
+  name: 'the-meltdown'
+});
+
+meltdown.start();

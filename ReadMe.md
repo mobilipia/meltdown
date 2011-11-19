@@ -1,16 +1,16 @@
-# meltdown - a dead man's switch for hook.io
+# meltdown - a [dead man's switch](http://en.wikipedia.org/wiki/Dead_man's_switch) for [hook.io](http://hook.io)
 
 ##  if you don't `meltdown::pushthebutton` before the `meltdown::critical` happens, all hook.io jobs you added with `meltdown::jobs::add` will execute.
 
 ## emitting `meltdown::pushthebutton` will reset `meltdown.countdown` back to `meltdown.timer`
 
 
-## Installation
+### Installation
 
     npm install meltdown -g
 
 
-## Usage
+### Usage
 
     meltdown
     
